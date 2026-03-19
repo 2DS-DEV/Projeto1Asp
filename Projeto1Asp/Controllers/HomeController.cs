@@ -1,6 +1,6 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Projeto1Asp.Models;
+using System.Diagnostics;
 
 namespace Projeto1Asp.Controllers
 {
@@ -18,7 +18,17 @@ namespace Projeto1Asp.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+
+        public IActionResult Sobre()
+        {
+            return View();
+        }
+
+        public IActionResult Contato()
+        {
+            return View();
+        }
+        public IActionResult Portifolio()
         {
             return View();
         }
