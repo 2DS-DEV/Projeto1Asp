@@ -15,6 +15,12 @@ namespace Projeto1Asp.Controllers
 
         public IActionResult Index()
         {
+            //ViewBag =Armazena dados
+            ViewBag.NomeUsuario = "João";
+            ViewBag.EmailUsuario = "sonicjoa06@gmail.com";
+            ViewBag.NivelAcesso = "Usuario";
+            ViewBag.DataAcesso = DateTime.Now.ToLongDateString();
+
             return View();
         }
 
